@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "PVI5080N"
+	(symbol "VOM1271T"
 		(pin_names
 			(offset 1.016)
 		)
@@ -18,8 +18,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PVI5080N"
-			(at -5.334 -18.288 0)
+		(property "Value" "VOM1271T"
+			(at -2.5415 -17.7905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +65,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "PVI5080N_0_0"
+		(symbol "VOM1271T_0_0"
 			(rectangle
 				(start -16.51 15.24)
 				(end 13.97 -15.24)
@@ -654,7 +654,7 @@
 				)
 			)
 		)
-		(symbol "PVI5080N_1_0"
+		(symbol "VOM1271T_1_0"
 			(pin passive line
 				(at -20.32 5.08 0)
 				(length 5.08)
