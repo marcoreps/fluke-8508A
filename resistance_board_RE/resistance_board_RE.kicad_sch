@@ -5440,6 +5440,18 @@
 		(uuid "2ef0243b-aee2-4982-af84-54319297d045")
 	)
 	(junction
+		(at 271.78 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30309aac-1ef1-4e6c-aeed-9007465f1ce4")
+	)
+	(junction
+		(at 271.78 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bbdbc0f-df1e-41bf-a10f-caf6ca27a2f5")
+	)
+	(junction
 		(at 219.71 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5456,6 +5468,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "460f0da2-d5ea-4135-9f88-35f18b4af5fd")
+	)
+	(junction
+		(at 278.13 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48afd9a9-20e2-4cf1-a4ab-e8dd12c323a4")
 	)
 	(junction
 		(at 167.64 217.17)
@@ -5609,6 +5627,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 68.58) (xy 271.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0081abfb-43ff-420d-b9db-b574da9ccf93")
+	)
+	(wire
+		(pts
 			(xy 226.06 275.59) (xy 190.5 275.59)
 		)
 		(stroke
@@ -5646,6 +5674,16 @@
 			(type default)
 		)
 		(uuid "0464d5d2-f3c7-4af9-836b-0b3e0799d6a8")
+	)
+	(wire
+		(pts
+			(xy 278.13 64.77) (xy 278.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05983dc2-87a4-4dd6-b9ee-65d2ea3696d1")
 	)
 	(wire
 		(pts
@@ -5889,6 +5927,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 100.33) (xy 271.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dfe4ec3-7d7f-4ce2-9d4e-35cf940b38d6")
+	)
+	(wire
+		(pts
 			(xy 280.67 245.11) (xy 288.29 245.11)
 		)
 		(stroke
@@ -5916,6 +5964,16 @@
 			(type default)
 		)
 		(uuid "33f88a6d-6671-4f47-8505-ef488b4267c5")
+	)
+	(wire
+		(pts
+			(xy 267.97 90.17) (xy 271.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a78d67-8c18-4e60-99dd-95a91e7fce85")
 	)
 	(wire
 		(pts
@@ -6279,6 +6337,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 68.58) (xy 278.13 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b09a1f4-821e-4d2b-8df3-5c9670b50d21")
+	)
+	(wire
+		(pts
 			(xy 134.62 78.74) (xy 134.62 81.28)
 		)
 		(stroke
@@ -6396,6 +6464,16 @@
 			(type default)
 		)
 		(uuid "7426e80c-5285-4fa8-a13b-96f4bf2b5d78")
+	)
+	(wire
+		(pts
+			(xy 234.95 116.84) (xy 234.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771307d3-730d-4fee-a0d0-88435561f139")
 	)
 	(wire
 		(pts
@@ -6669,6 +6747,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 54.61) (xy 278.13 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fcab88a-5ef6-49e5-a723-20fc296e01c8")
+	)
+	(wire
+		(pts
 			(xy 140.97 234.95) (xy 175.26 234.95)
 		)
 		(stroke
@@ -6709,6 +6797,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 68.58) (xy 271.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a477c2db-399e-48e4-a56a-a2a5af462966")
+	)
+	(wire
+		(pts
 			(xy 287.02 133.35) (xy 287.02 135.89)
 		)
 		(stroke
@@ -6729,7 +6827,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 69.85) (xy 231.14 69.85)
+			(xy 293.37 54.61) (xy 293.37 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6809,6 +6907,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 116.84) (xy 234.95 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cc0683-5876-4e5c-94f5-a15830c154b1")
+	)
+	(wire
+		(pts
 			(xy 167.64 217.17) (xy 167.64 218.44)
 		)
 		(stroke
@@ -6846,6 +6954,26 @@
 			(type default)
 		)
 		(uuid "bfcaf579-36ad-48e7-a02b-ba7576a15eaf")
+	)
+	(wire
+		(pts
+			(xy 271.78 90.17) (xy 271.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c3f697-41c8-42d9-bb53-011045d9f4b4")
+	)
+	(wire
+		(pts
+			(xy 271.78 68.58) (xy 247.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b04305-9c3f-4d80-9569-1cb3a34c1fa7")
 	)
 	(wire
 		(pts
@@ -6989,6 +7117,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 54.61) (xy 278.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4bb8fdc-7490-454b-8c68-8a3908fc90fe")
+	)
+	(wire
+		(pts
 			(xy 234.95 201.93) (xy 219.71 201.93)
 		)
 		(stroke
@@ -7109,6 +7247,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 68.58) (xy 247.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a411a6-9124-4f8b-b5cf-c80eef46eea5")
+	)
+	(wire
+		(pts
 			(xy 234.95 124.46) (xy 234.95 125.73)
 		)
 		(stroke
@@ -7149,6 +7297,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 102.87) (xy 252.73 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7746714-7b0f-47de-9a4d-ed07b13a5bc6")
+	)
+	(wire
+		(pts
 			(xy 265.43 240.03) (xy 265.43 252.73)
 		)
 		(stroke
@@ -7166,6 +7324,16 @@
 			(type default)
 		)
 		(uuid "eb8fa09d-b34c-4b19-b354-e128a562674b")
+	)
+	(wire
+		(pts
+			(xy 247.65 87.63) (xy 252.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9c686b-088f-4b46-a515-899e72ab2443")
 	)
 	(wire
 		(pts
@@ -7806,6 +7974,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 278.13 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2286378c-cb6b-48f7-9187-e7859dd820a7")
+		(property "Reference" "R25"
+			(at 275.59 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 275.59 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.352 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 278.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b79ef8a3-d7f9-4e00-b6c8-79ebbe1c754f")
+		)
+		(pin "2"
+			(uuid "5acf7ec2-35c1-49cc-b23f-538efa6eeba7")
+		)
+		(instances
+			(project "resistance_board_RE"
+				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NPN_BCE")
 		(at 274.32 260.35 180)
 		(unit 1)
@@ -8182,21 +8421,19 @@
 		(fields_autoplaced yes)
 		(uuid "33dc910d-a72e-452e-a147-748c318dce1d")
 		(property "Reference" "TP102"
-			(at 229.87 118.6179 0)
+			(at 227.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 229.87 121.1579 0)
+			(at 227.33 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8614,6 +8851,73 @@
 			(project "resistance_board_RE"
 				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 349.2736 87.2532 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46d953fe-5669-4f1e-8e07-f79b0f963850")
+		(property "Reference" "J5"
+			(at 351.8136 85.9831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Green Wire"
+			(at 351.8136 88.5231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.2736 87.2532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.2736 87.2532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 349.2736 87.2532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67eaa3ad-6c5e-4ad7-97ab-6d6316171de8")
+		)
+		(instances
+			(project "resistance_board_RE"
+				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9318,77 +9622,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_BCE")
-		(at 214.63 72.39 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6af21886-c166-4a7a-9cc3-5fe650fa056f")
-		(property "Reference" "Q2"
-			(at 214.63 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SOT_23 Device \"GM X\""
-			(at 214.63 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, base/collector/emitter"
-			(at 214.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c10647bb-b2d7-42d3-b1df-66871d6ee8cb")
-		)
-		(pin "1"
-			(uuid "f49fa23f-b15c-476c-98cd-602dd5e6c2d0")
-		)
-		(pin "2"
-			(uuid "5a03d296-af93-46f3-85de-05f1b7365eeb")
-		)
-		(instances
-			(project "resistance_board_RE"
-				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 246.38 133.35 90)
 		(unit 1)
@@ -9451,6 +9684,94 @@
 			(project "resistance_board_RE"
 				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 260.35 90.17 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dee5c3b-3a12-4b19-aa4d-cbe9424da404")
+		(property "Reference" "RL101"
+			(at 260.35 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX2-L-12V"
+			(at 260.35 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3de365d3-2061-4ffa-8dd4-f418a983c8e3")
+		)
+		(pin "1"
+			(uuid "d4077608-f988-4956-aeb8-efae425acfce")
+		)
+		(pin "3"
+			(uuid "a5692e31-5a99-4b3c-a809-53a30ec5cb50")
+		)
+		(pin "7"
+			(uuid "bd0e70a0-1893-40df-ae16-f91d5be80ca5")
+		)
+		(pin "6"
+			(uuid "7aa1105f-284f-4611-bbd4-9cf2bdaf0418")
+		)
+		(pin "2"
+			(uuid "7ca6e5c8-308a-4ed5-953d-24903ca2fe30")
+		)
+		(pin "8"
+			(uuid "5211c66a-58a6-4bf4-8581-e30f692a38b0")
+		)
+		(pin "5"
+			(uuid "97a2e5b2-c77b-4862-a3ca-4bc94b311887")
+		)
+		(instances
+			(project "resistance_board_RE"
+				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
+					(reference "RL101")
 					(unit 1)
 				)
 			)
@@ -9657,6 +9978,78 @@
 			(project "resistance_board_RE"
 				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NJFET_DSG")
+		(at 288.29 52.07 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "895e93b1-20a8-42d0-ab34-316b21d8674f")
+		(property "Reference" "Q11"
+			(at 288.29 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBF5485 \"6M\""
+			(at 288.29 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-JFET transistor, drain/source/gate"
+			(at 288.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "69fa144c-b5a2-4a8a-ad47-d16daad097f1")
+		)
+		(pin "2"
+			(uuid "1be9019f-217c-4abc-b8e2-c76d2c35079a")
+		)
+		(pin "1"
+			(uuid "81bac121-ed2a-4032-b318-e907c0453041")
+		)
+		(instances
+			(project "resistance_board_RE"
+				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -10802,7 +11195,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 236.22 69.85 0)
+		(at 293.37 71.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10811,25 +11205,25 @@
 		(fields_autoplaced yes)
 		(uuid "b92e275b-b211-44b9-9028-8acce5cee561")
 		(property "Reference" "J2"
-			(at 238.76 68.5799 0)
+			(at 295.91 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Blrown Wire"
-			(at 238.76 71.1199 0)
+			(at 295.91 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 69.85 0)
+			(at 293.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10838,7 +11232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 69.85 0)
+			(at 293.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10847,7 +11241,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 236.22 69.85 0)
+			(at 293.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11189,7 +11583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+		(property "Datasheet" ""
 			(at 214.63 137.16 0)
 			(effects
 				(font
@@ -11198,7 +11592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+		(property "Description" ""
 			(at 214.63 137.16 0)
 			(effects
 				(font
@@ -12535,6 +12929,75 @@
 			(project "resistance_board_RE"
 				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
 					(reference "NT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 278.13 60.96 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f49d5a60-cd0f-4f56-a00a-2016763315a4")
+		(property "Reference" "R24"
+			(at 271.78 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 274.32 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.352 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 278.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a52ba5ba-9334-4dcb-b06f-63a1cd2da8e3")
+		)
+		(pin "2"
+			(uuid "bf82c4da-31f1-4ac7-8734-4c62fb06c773")
+		)
+		(instances
+			(project "resistance_board_RE"
+				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
+					(reference "R24")
 					(unit 1)
 				)
 			)
