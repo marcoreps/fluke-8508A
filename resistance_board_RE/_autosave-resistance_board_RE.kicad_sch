@@ -7851,6 +7851,12 @@
 		(uuid "380e311e-9480-4d0f-9383-d73ef624ec1d")
 	)
 	(junction
+		(at 369.57 334.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3abc5d26-af0c-445e-910a-6c50eb2e920e")
+	)
+	(junction
 		(at 427.99 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8379,7 +8385,7 @@
 		(uuid "ead34531-f62c-4774-8e63-3d1f5a8c6056")
 	)
 	(junction
-		(at 383.54 334.01)
+		(at 361.95 334.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eadf738a-74bb-459a-bc75-6042fba244ad")
@@ -8915,6 +8921,17 @@
 			(type default)
 		)
 		(uuid "19e20e48-03e9-44fb-a157-439b850af7f9")
+	)
+	(wire
+		(pts
+			(xy 369.57 334.01) (xy 391.16 334.01)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1a3b31ec-81f8-4675-9741-56316ba40943")
 	)
 	(wire
 		(pts
@@ -9699,7 +9716,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 320.04) (xy 373.38 339.09)
+			(xy 351.79 320.04) (xy 351.79 339.09)
 		)
 		(stroke
 			(width 1.27)
@@ -9980,7 +9997,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 355.6) (xy 381 355.6)
+			(xy 349.25 355.6) (xy 359.41 355.6)
 		)
 		(stroke
 			(width 1.27)
@@ -10131,6 +10148,16 @@
 			(type default)
 		)
 		(uuid "5009ec4e-a7bf-4722-9263-4e37e74952f3")
+	)
+	(wire
+		(pts
+			(xy 363.22 383.54) (xy 372.11 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506ad009-5e5e-44d4-b612-8a5108d41da6")
 	)
 	(wire
 		(pts
@@ -10417,7 +10444,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 320.04) (xy 373.38 320.04)
+			(xy 386.08 320.04) (xy 351.79 320.04)
 		)
 		(stroke
 			(width 1.27)
@@ -10428,7 +10455,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 339.09) (xy 383.54 334.01)
+			(xy 361.95 339.09) (xy 361.95 334.01)
 		)
 		(stroke
 			(width 1.27)
@@ -10739,7 +10766,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 354.33) (xy 381 355.6)
+			(xy 359.41 354.33) (xy 359.41 355.6)
 		)
 		(stroke
 			(width 1.27)
@@ -10950,7 +10977,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 334.01) (xy 391.16 334.01)
+			(xy 361.95 334.01) (xy 369.57 334.01)
 		)
 		(stroke
 			(width 1.27)
@@ -11501,6 +11528,16 @@
 			(type default)
 		)
 		(uuid "96f1658e-03b4-4a6e-8daf-793d291a180d")
+	)
+	(wire
+		(pts
+			(xy 363.22 388.62) (xy 363.22 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989fa1a8-78ab-43e5-8f80-93832ae38361")
 	)
 	(wire
 		(pts
@@ -12355,6 +12392,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 383.54) (xy 372.11 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c97848-91c1-4a0f-9666-8ab829809f7a")
+	)
+	(wire
+		(pts
 			(xy 651.51 96.52) (xy 650.24 96.52)
 		)
 		(stroke
@@ -12372,6 +12419,16 @@
 			(type default)
 		)
 		(uuid "c63a9c0b-0698-4f3e-b640-fa3a1388f83a")
+	)
+	(wire
+		(pts
+			(xy 369.57 334.01) (xy 369.57 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c658c4e7-6eb1-48d5-a0a9-7678a0496c04")
 	)
 	(wire
 		(pts
@@ -13066,7 +13123,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 334.01) (xy 383.54 332.74)
+			(xy 361.95 334.01) (xy 361.95 332.74)
 		)
 		(stroke
 			(width 0)
@@ -13276,7 +13333,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 354.33) (xy 370.84 355.6)
+			(xy 349.25 354.33) (xy 349.25 355.6)
 		)
 		(stroke
 			(width 1.27)
@@ -13808,16 +13865,6 @@
 			)
 		)
 		(uuid "6846f7dd-c5ce-461f-b34e-f2d69147d885")
-	)
-	(text "Constant current sinks maybe?"
-		(exclude_from_sim no)
-		(at 401.32 444.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "69fe6436-4285-409e-a5f8-f570a84e1744")
 	)
 	(text "Composite Amplifier \"Low Follower\""
 		(exclude_from_sim no)
@@ -16859,7 +16906,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 383.54 332.74 0)
+		(at 361.95 332.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16868,7 +16915,7 @@
 		(fields_autoplaced yes)
 		(uuid "33dc910d-a72e-452e-a147-748c318dce1d")
 		(property "Reference" "TP102"
-			(at 383.54 323.85 0)
+			(at 361.95 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16876,7 +16923,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 383.54 326.39 0)
+			(at 361.95 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16884,7 +16931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 388.62 332.74 0)
+			(at 367.03 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16893,7 +16940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 388.62 332.74 0)
+			(at 367.03 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16902,7 +16949,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 383.54 332.74 0)
+			(at 361.95 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21115,6 +21162,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 365.76 396.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72e29d30-b16d-4165-98fc-8a70092b7d0c")
+		(property "Reference" "RL5"
+			(at 349.25 394.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TX2-L-12V"
+			(at 349.25 397.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "16d1e611-cf45-46aa-a4ed-5e2d8051cef6")
+		)
+		(pin "1"
+			(uuid "b16484aa-a65f-487a-bf41-72728a5108d5")
+		)
+		(pin "3"
+			(uuid "5c6af271-fb8e-4032-aebe-de4e4c04610d")
+		)
+		(pin "7"
+			(uuid "52c7def0-8b12-424c-a235-2127e5837f75")
+		)
+		(pin "6"
+			(uuid "d0eebc9a-ea45-44c3-bdf6-c8a7c496e3ca")
+		)
+		(pin "2"
+			(uuid "db4fc4b0-c6bb-4756-8118-ad12d918c285")
+		)
+		(pin "8"
+			(uuid "fef158dc-389e-4f06-bb60-213d4d9ff6f8")
+		)
+		(pin "5"
+			(uuid "77c5e0a5-04c3-43f1-970f-5f23a7e2964a")
+		)
+		(instances
+			(project "resistance_board_RE"
+				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
+					(reference "RL5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL071")
 		(at 838.2 505.46 0)
 		(unit 1)
@@ -22566,6 +22701,94 @@
 			(project "resistance_board_RE"
 				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
 					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 372.11 372.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91a9d2c9-7650-4e83-93b8-2d9a8f7cfdd4")
+		(property "Reference" "RL4"
+			(at 355.6 370.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TX2-L-12V"
+			(at 355.6 373.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4db371d3-bb45-434e-99e8-0de1fdf9da72")
+		)
+		(pin "1"
+			(uuid "0066019f-70ef-4ba2-812f-cb450db09ce6")
+		)
+		(pin "3"
+			(uuid "945a4d53-1026-4daa-ba10-c9861601996c")
+		)
+		(pin "7"
+			(uuid "de327fc1-f830-41c6-806e-658d5dd46080")
+		)
+		(pin "6"
+			(uuid "50bec1db-f484-48ca-9007-abac3a3b6b8f")
+		)
+		(pin "2"
+			(uuid "2e4d9090-a42d-4765-941f-250c9ce5f52e")
+		)
+		(pin "8"
+			(uuid "2e9b8f3a-866a-4185-bc5c-1c35cc65a542")
+		)
+		(pin "5"
+			(uuid "bf04e360-6a41-464c-a865-3c58259ca902")
+		)
+		(instances
+			(project "resistance_board_RE"
+				(path "/c867b31e-fe29-4876-b88b-a79e8602be55"
+					(reference "RL4")
 					(unit 1)
 				)
 			)
@@ -26157,16 +26380,15 @@
 	)
 	(symbol
 		(lib_id "Relay:G6KU-2")
-		(at 370.84 346.71 0)
+		(at 349.25 346.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c70b59ba-ad13-493a-852b-c68a2a4ef8f4")
 		(property "Reference" "RL102"
-			(at 354.33 345.4399 0)
+			(at 332.74 345.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26175,7 +26397,7 @@
 			)
 		)
 		(property "Value" "TX2-L-12V"
-			(at 354.33 347.9799 0)
+			(at 332.74 347.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26184,7 +26406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 346.71 0)
+			(at 349.25 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26194,7 +26416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 346.71 0)
+			(at 349.25 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26203,7 +26425,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 370.84 346.71 0)
+			(at 349.25 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
