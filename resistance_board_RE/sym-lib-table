@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "vom1271")(type "KiCad")(uri "${KIPRJMOD}/VOM1271T.kicad_sym")(options "")(descr ""))
   (lib (name "ltc1052")(type "KiCad")(uri "${KIPRJMOD}/2024-06-18_08-11-37.kicad_sym")(options "")(descr ""))
+  (lib (name "dg408")(type "KiCad")(uri "${KIPRJMOD}/2024-06-23_15-13-31.kicad_sym")(options "")(descr ""))
 )
