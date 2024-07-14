@@ -18586,11 +18586,12 @@
 	)
 	(wire
 		(pts
-			(xy 471.17 331.47) (xy 471.17 342.9)
+			(xy 471.17 331.47) (xy 519.43 331.47)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
+			(color 160 79 55 1)
 		)
 		(uuid "a8d2bb2a-16d9-4333-a237-5742a015b37a")
 	)
@@ -23842,19 +23843,19 @@
 			)
 		)
 		(pin "16"
-			(uuid "8f65c862-9a97-4452-a57f-6d0589bebdfd")
+			(uuid "8f65c862-9a97-4452-a57f-6d0589bebdfe")
 		)
 		(pin "6"
-			(uuid "0d8cffdf-d6cb-48d3-bd7d-d31fe5e4b995")
+			(uuid "0d8cffdf-d6cb-48d3-bd7d-d31fe5e4b996")
 		)
 		(pin "12"
-			(uuid "5b42e233-69fe-48d7-a763-003c4018dc9f")
+			(uuid "5b42e233-69fe-48d7-a763-003c4018dca0")
 		)
 		(pin "13"
-			(uuid "ca9ae712-d4be-48c0-82a9-ae8115470f96")
+			(uuid "ca9ae712-d4be-48c0-82a9-ae8115470f97")
 		)
 		(pin "11"
-			(uuid "bc7496a8-4c78-4422-aa67-fff5cba65159")
+			(uuid "bc7496a8-4c78-4422-aa67-fff5cba6515a")
 		)
 		(pin "3"
 			(uuid "d5ebc0fb-0304-4306-a701-d0a142e00f60")
@@ -23863,31 +23864,31 @@
 			(uuid "ed50ed50-76c7-4a24-b571-df4f1858df20")
 		)
 		(pin "10"
-			(uuid "8714e5ec-45c4-4f9c-a1bb-32cddc0ded3d")
+			(uuid "8714e5ec-45c4-4f9c-a1bb-32cddc0ded3e")
 		)
 		(pin "5"
-			(uuid "84704e56-b083-4f3d-96e8-7de8dfe18b4e")
+			(uuid "84704e56-b083-4f3d-96e8-7de8dfe18b4f")
 		)
 		(pin "14"
-			(uuid "ea161881-846e-494f-9505-0ae182643598")
+			(uuid "ea161881-846e-494f-9505-0ae182643599")
 		)
 		(pin "4"
-			(uuid "3eaa51e7-c33a-4ee8-b687-66ae37a7f5f8")
+			(uuid "3eaa51e7-c33a-4ee8-b687-66ae37a7f5f9")
 		)
 		(pin "15"
-			(uuid "4ab53972-233e-43d1-badc-a78ee133866f")
+			(uuid "4ab53972-233e-43d1-badc-a78ee1338670")
 		)
 		(pin "1"
 			(uuid "25591d37-cf51-4ddd-bec5-5c54a4749669")
 		)
 		(pin "8"
-			(uuid "f2e9a424-06e8-4c13-b360-81665d8deda1")
+			(uuid "f2e9a424-06e8-4c13-b360-81665d8deda2")
 		)
 		(pin "7"
-			(uuid "e393a518-880a-4cf8-a192-6cc512802b1d")
+			(uuid "e393a518-880a-4cf8-a192-6cc512802b1e")
 		)
 		(pin "9"
-			(uuid "d64de902-bf30-4930-94b0-08f9d28cfb82")
+			(uuid "d64de902-bf30-4930-94b0-08f9d28cfb83")
 		)
 		(instances
 			(project "resistance_board_RE"
@@ -44376,7 +44377,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 471.17 347.98 90)
+		(at 524.51 331.47 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -44386,25 +44387,23 @@
 		(fields_autoplaced yes)
 		(uuid "b92e275b-b211-44b9-9028-8acce5cee561")
 		(property "Reference" "J2"
-			(at 473.71 345.4399 90)
+			(at 524.51 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Blrown Wire"
-			(at 473.71 347.9799 90)
+			(at 524.51 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 471.17 347.98 0)
+			(at 524.51 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44413,7 +44412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 471.17 347.98 0)
+			(at 524.51 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44422,12 +44421,11 @@
 			)
 		)
 		(property "Description" "Hi"
-			(at 473.71 350.5199 90)
+			(at 524.51 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(pin "1"
@@ -51023,19 +51021,19 @@
 			)
 		)
 		(pin "16"
-			(uuid "8f65c862-9a97-4452-a57f-6d0589bebdfd")
+			(uuid "8f65c862-9a97-4452-a57f-6d0589bebdff")
 		)
 		(pin "6"
-			(uuid "0d8cffdf-d6cb-48d3-bd7d-d31fe5e4b995")
+			(uuid "0d8cffdf-d6cb-48d3-bd7d-d31fe5e4b997")
 		)
 		(pin "12"
-			(uuid "5b42e233-69fe-48d7-a763-003c4018dc9f")
+			(uuid "5b42e233-69fe-48d7-a763-003c4018dca1")
 		)
 		(pin "13"
-			(uuid "ca9ae712-d4be-48c0-82a9-ae8115470f96")
+			(uuid "ca9ae712-d4be-48c0-82a9-ae8115470f98")
 		)
 		(pin "11"
-			(uuid "bc7496a8-4c78-4422-aa67-fff5cba65159")
+			(uuid "bc7496a8-4c78-4422-aa67-fff5cba6515b")
 		)
 		(pin "3"
 			(uuid "63713ba8-2424-4fa6-b7b4-18659dcef9d0")
@@ -51044,31 +51042,31 @@
 			(uuid "28cf9fed-b2a7-4f03-a54d-7bb873c07e84")
 		)
 		(pin "10"
-			(uuid "8714e5ec-45c4-4f9c-a1bb-32cddc0ded3d")
+			(uuid "8714e5ec-45c4-4f9c-a1bb-32cddc0ded3f")
 		)
 		(pin "5"
-			(uuid "84704e56-b083-4f3d-96e8-7de8dfe18b4e")
+			(uuid "84704e56-b083-4f3d-96e8-7de8dfe18b50")
 		)
 		(pin "14"
-			(uuid "ea161881-846e-494f-9505-0ae182643598")
+			(uuid "ea161881-846e-494f-9505-0ae18264359a")
 		)
 		(pin "4"
-			(uuid "3eaa51e7-c33a-4ee8-b687-66ae37a7f5f8")
+			(uuid "3eaa51e7-c33a-4ee8-b687-66ae37a7f5fa")
 		)
 		(pin "15"
-			(uuid "4ab53972-233e-43d1-badc-a78ee133866f")
+			(uuid "4ab53972-233e-43d1-badc-a78ee1338671")
 		)
 		(pin "1"
 			(uuid "236dca76-2887-46e5-b8d5-7a0899c4e49c")
 		)
 		(pin "8"
-			(uuid "f2e9a424-06e8-4c13-b360-81665d8deda1")
+			(uuid "f2e9a424-06e8-4c13-b360-81665d8deda3")
 		)
 		(pin "7"
-			(uuid "e393a518-880a-4cf8-a192-6cc512802b1d")
+			(uuid "e393a518-880a-4cf8-a192-6cc512802b1f")
 		)
 		(pin "9"
-			(uuid "d64de902-bf30-4930-94b0-08f9d28cfb82")
+			(uuid "d64de902-bf30-4930-94b0-08f9d28cfb84")
 		)
 		(instances
 			(project "resistance_board_RE"
