@@ -315,7 +315,7 @@ time_start = time.time()
 ########## OHM PERFORMANCE TEST ##########
 print("OHM PERFORMANCE TEST")
 MFC_OHM_list = ["1 OHM","1.9 OHM","10 OHM","19 OHM","100 OHM","190 OHM","1 KOHM","1.9 KOHM","10 KOHM",
-                "19 KOHM","100 KOHM","190 KOHM","1 MOHM","1.9 MOHM","10 MOHM","19 MOHM","100 MOHM"]
+                "19 KOHM","100 KOHM","190 KOHM","1 MOHM","1.9 MOHM","10 MOHM","19 MOHM","100 MOHM","100 MOHM"]
 
 F5700EP.write("OUT 0 OHM")
 F5700EP.write("EXTSENSE ON")
@@ -323,13 +323,13 @@ F5700EP.write("OPER")
 time.sleep(10)
 
 
-dmm.write("OHMS 10,FWR")
+dmm.write("OHMS 1,FWR,FAST_OFF")
 dmm.write("ZERO?")
 time.sleep(100)
 
 
 
-for ix in range (0,17): 
+for ix in range (0,18): 
     array = []
     sdev = 0.0
     median = 0.0
@@ -338,10 +338,10 @@ for ix in range (0,17):
     Quality = 0
     res = MFC_OHM_list[ix]
     if ix == 0:
-        dmm.write("OHMS 10,FWR")
+        dmm.write("OHMS 1,FWR")
         print("DMM OHMS FWR Range: 10 OHM")
     elif ix == 1:
-        dmm.write("OHMS 10,FWR")
+        dmm.write("OHMS 1,FWR")
         print("DMM OHMS FWR Range: 10 OHM")
     elif ix == 2:
         dmm.write("OHMS 10,FWR")
@@ -388,6 +388,9 @@ for ix in range (0,17):
     elif ix == 16:
         dmm.write("OHMS 100000000,TWR")
         F5700EP.write("EXTSENSE OFF")
+    elif ix == 17:
+        dmm.write("HIV_OHMS 100000000,TWR,FAST_OFF")
+        F5700EP.write("EXTSENSE OFF")
 
         print("DMM OHMS TWR Range: 100 MOHM, PCENT_100") 
         
@@ -431,7 +434,7 @@ for ix in range (0,17):
 wb.save('test_8508a.xlsx')
 
 
-dmm.write("OHMS 10,FWR")
+dmm.write("OHMS 1,FWR")
 ### OHM zero 4w ###             
                                                          
 F5700EP.write("OUT 0 OHM")
@@ -439,36 +442,40 @@ F5700EP.write("EXTSENSE ON")
 F5700EP.write("OPER")
 time.sleep(10)
 
-for ix in range (0,8):
+for ix in range (0,9):
     array = []
     sdev = 0.0
     median = 0.0
     unc = 0
     Quality = 0
     if ix == 0:
+        dmm.write("OHMS 1,FWR")
+        print("DMM FWR Zero Range: 1 OHM")
+    if ix == 1:
         dmm.write("OHMS 10,FWR")
         print("DMM FWR Zero Range: 10 OHM")
-    elif ix == 1:
+    elif ix == 2:
         dmm.write("OHMS 100,FWR")
         print("DMM FWR Zero Range: 100 OHM")
-    elif ix == 2:
+    elif ix == 3:
         dmm.write("OHMS 1000,FWR")
         print("DMM FWR Zero Range: 1 KOHM")
-    elif ix == 3:
+    elif ix == 4:
         dmm.write("OHMS 10000,FWR")
         print("DMM FWR Zero Range: 10 KOHM")
-    elif ix == 4:
+    elif ix == 5:
         dmm.write("OHMS 100000,FWR")
         print("DMM FWR Zero Range: 100 KOHM")
-    elif ix == 5:
+    elif ix == 6:
         dmm.write("OHMS 1000000,FWR")
         print("DMM FWR Zero Range: 1 MOHM")
-    elif ix == 6:
+    elif ix == 7:
         dmm.write("OHMS 10000000,FWR")
         print("DMM FWR Zero Range: 10 MOHM")
-    elif ix == 7:
+    elif ix == 8:
         dmm.write("OHMS 100000000,FWR")
         print("DMM FWR Zero Range: 100 MOHM")
+        
         
     for i in range (0,10):
         dmm.write("*TRG;GET;RDG?")
@@ -480,8 +487,6 @@ for ix in range (0,8):
     ws['J' + str(130+ix)] = sdev
     F5700EP.write("UNCERT?")
     unc = F5700EP.read()
-    
-
     
     cutstr = unc.split(",")
     ws['D' + str(130+ix)] = float(cutstr[0])
@@ -508,27 +513,30 @@ for ix in range (0,8):
     Quality = 0
 
     if ix == 0:
+        dmm.write("OHMS 1,TWR")
+        print("DMM OHMS TWR Zero Range: 1 OHM")
+    if ix == 1:
         dmm.write("OHMS 10,TWR")
         print("DMM OHMS TWR Zero Range: 10 OHM")
-    elif ix == 1:
+    elif ix == 2:
         dmm.write("OHMS 100,TWR")
         print("DMM OHMS TWR Zero Range: 100 OHM")
-    elif ix == 2:
+    elif ix == 3:
         dmm.write("OHMS 1000,TWR")
         print("DMM OHMS TWR Zero Range: 1 KOHM")
-    elif ix == 3:
+    elif ix == 4:
         dmm.write("OHMS 10000,TWR")
         print("DMM OHMS TWR Zero Range: 10 KOHM")
-    elif ix == 4:
+    elif ix == 5:
         dmm.write("OHMS 100000,TWR")
         print("DMM OHMS TWR Zero Range: 100 KOHM")
-    elif ix == 5:
+    elif ix == 6:
         dmm.write("OHMS 1000000,TWR")
         print("DMM OHMS TWR Zero Range: 1 MOHM")
-    elif ix == 6:
+    elif ix == 7:
         dmm.write("OHMS 10000000,TWR")
         print("DMM OHMS TWR Zero Range: 10 MOHM")        
-    elif ix == 7:
+    elif ix == 8:
         dmm.write("OHMS 100000000,TWR")
         print("DMM OHMS TWR Zero Range: 100 MOHM")
         
